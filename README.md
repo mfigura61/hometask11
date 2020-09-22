@@ -1,4 +1,4 @@
-# Homework #11. Ansible
+# Hometask #11. Ansible
 
 Домашнее задание
 Первые шаги с Ansible
@@ -44,7 +44,7 @@ cat hosts
 nginx ansible_host=127.0.0.1 ansible_port=2222 ansible_private_key_file=.vagrant/machines/nginx/virtualbox/private_key
 ```
 
-Теперь запустим виртуалку вместе c автоконфигурацией ее ансибл плейбуком nginx-with-role.yml.
+Теперь запустим виртуалку вместе c автоконфигурацией ее.
 ```
 vagrant provision
 ...
